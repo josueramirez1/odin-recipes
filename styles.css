@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  line-height: 1.4;
+  line-height: 1.6;
 }
 
 body {
@@ -17,11 +17,8 @@ body {
 }
 
 .container {
-  position: absolute;
   text-align: center;
-
-  left: 50%;
-  transform: translate(-50%, 0%);
+  margin: 0 auto;
   padding: 20px 0;
 }
 
@@ -46,7 +43,9 @@ body {
 }
 
 .recipe-body {
+  width: 1100px;
   margin: 0 auto;
+  padding: 20px 0;
 }
 
 .recipe-body h1 {
@@ -54,20 +53,6 @@ body {
   text-align: center;
 }
 
-.recipe-img {
-  float: left;
-
-  width: 45%;
-  height: 80%;
-
-  object-fit: cover;
-  object-position: 25% 25%;
-
-  border-radius: 11px;
-  /* transform: translate(2%, 0); */
-  margin-left: 20px;
-  margin-bottom: 40px;
-}
 .recipe-des-ing {
   float: right;
   width: 50%;
@@ -96,19 +81,34 @@ body {
   list-style: none;
 }
 
-.recipe-body ol li {
+/* .recipe-body ol li {
   line-height: 2;
-}
+} */
 
+.recipe-img {
+  float: left;
+
+  width: 50%;
+  height: 85%;
+
+  object-fit: cover;
+  object-position: 50% 25%;
+
+  border-radius: 11px;
+  margin: 30px 0 0 0;
+}
 .recipe-img-2 {
-  width: 45%;
-  height: 80%;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  width: 50%;
+  height: 85%;
+
   float: right;
   object-fit: cover;
   object-position: 25% 25%;
-  /* padding: 0 20px 20px 20px; */
+
   border-radius: 11px;
-  transform: translate(-2%, 10%);
+  margin-bottom: 40px;
+}
+
+.recipe-steps p {
+  padding-bottom: 20px;
 }
