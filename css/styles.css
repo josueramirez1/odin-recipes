@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&display=swap");
+
+body {
+  font-family: "Rosarivo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+/* Main page styling */
+
+.main-body {
+  background-image: url("/img/main.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+}
+
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title-heading {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.choose-recipe {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.choose-recipe label,
+.choose-recipe select {
+  font-family: inherit;
+  font-size: 1.2rem;
+}
+
+/* .main-content ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+} */
+
+/* .main-content li {
+  list-style: none;
+  font-size: 1.6rem;
+} */

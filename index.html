@@ -3,14 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Odin Recipes</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Odin Recipe</title>
   </head>
-  <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-      <li><a href="recipes/carne-asada.html">Carne Asada</a></li>
-      <li><a href="recipes/lasagna.html">Lasagna</a></li>
-      <li><a href="recipes/pizza.html">Pizza</a></li>
-    </ul>
+  <body class="main-body">
+    <div class="container main-page">
+      <div class="main-content">
+        <h1 class="main-title-heading">A Feast for Odin!</h1>
+        <div class="choose-recipe">
+          <label for="food">Choose a recipe:</label>
+          <select
+            name="food"
+            id="food"
+            onchange="window.location.href=this.value"
+          >
+            <option disabled selected value>Select</option>
+            <option value="recipes/carne-asada.html">
+              Carne Asade Marinade
+            </option>
+            <option value="recipes/lasagna.html">Lasagna</option>
+            <option value="recipes/pizza.html">Pizza</option>
+          </select>
+        </div>
+        <!-- <ul>
+          <li><a href="recipes/carne-asada.html">Carne Asada Marinade</a></li>
+          <li><a href="recipes/lasagna.html">Lasagna</a></li>
+          <li><a href="recipes/pizza.html">Pizza</a></li>
+        </ul> -->
+      </div>
+    </div>
   </body>
 </html>
