@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Rosarivo", cursive;
   font-weight: 400;
@@ -15,7 +19,7 @@ body {
 /* Main page styling */
 
 .main-body {
-  background-image: url("/img/main.jpg");
+  background-image: url("/odin-recipes/img/main.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
