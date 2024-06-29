@@ -19,7 +19,7 @@ body {
 /* Main page styling */
 
 .main-body {
-  background-image: url("/odin-recipes/img/main.jpg");
+  background-image: url("/img/main.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
