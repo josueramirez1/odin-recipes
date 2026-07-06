@@ -3,3 +3,5 @@
 This is a basic website explaining my favorite recipes
 
 This website is built using HTML but in the future CSS and Javascript will be added
+
+Credit to AllRecipes.com for providing pictures free to use.
